@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Ustawienie tekstu">
+    <ListPreference
+        android:key="colorList"
+        android:title="Kolor tekstu"
+        android:defaultValue="#00FFFF"
+        android:entries="@array/color_names_array"
+        android:entryValues="@array/color_array"
+        android:summary="Kolor tekstu wyświetlanego na zdjęciu"
+        />
+
+    <SeekBarPreference
+        android:key="textSize"
+        android:title="Rozmiar teskstu"
+        android:summary="Rozmiar tekstu wyświetlanego na zdjęciu"
+        android:defaultValue="@integer/text_size_default"
+        android:max="@integer/text_size_max"
+        app:min="@integer/text_size_min"
+        app:showSeekBarValue="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Ustawienia lokalizacj">
+        <SeekBarPreference
+            android:key="radius"
+            android:title="Promień"
+            android:summary="Rozmiar promienia powiadomień"
+            android:defaultValue="@integer/radius_default"
+            android:max="@integer/radius_max"
+            app:min="@integer/radius_min"
+            app:showSeekBarValue="true"/>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

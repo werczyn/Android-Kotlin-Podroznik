@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="text_size_default">50</integer>
+    <integer name="text_size_max">100</integer>
+    <integer name="text_size_min">1</integer>
+
+    <integer name="radius_default">1000</integer>
+    <integer name="radius_max">2000</integer>
+    <integer name="radius_min">50</integer>
+</resources>

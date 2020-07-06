@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- foreground color names array -->
+    <string-array name="color_names_array">
+        <item>Niebieski</item>
+
+        <item>Biały</item>
+
+        <item>Czarny</item>
+
+        <item>Czerwony</item>
+
+        <item>Zielony</item>
+    </string-array>
+
+    <!-- foreground color values array -->
+    <string-array name="color_array">
+        <!--item>Niebieski</item-->
+        <item>#3F51B5</item>
+
+        <!--item>Biały</item-->
+        <item>#FFF0F0</item>
+
+        <!--item>Czarny</item-->
+        <item>#000000</item>
+
+        <!--item>Czerwony</item-->
+        <item>#F30C0C</item>
+
+        <!--item>Zielony</item-->
+        <item>#18F309</item>
+    </string-array>
+</resources>
